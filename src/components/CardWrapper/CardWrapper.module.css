@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  background-color: antiquewhite;
+  height: 100%;
+}
+
+.card__wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: .9375rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 2.5rem;
+  transition: all 0.7s ease-out;
+}
+
+.button:hover {
+  background-color: #2f6e31;
+}
+
+
+.details {
+  font-size: 1.5rem;
+  margin: 5rem 0 3rem 0;
+}
+
+.wrapper_image {
+  align-self: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 53rem;
+}

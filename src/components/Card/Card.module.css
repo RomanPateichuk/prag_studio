@@ -1,0 +1,48 @@
+.image {
+  position: relative;
+}
+
+.image>img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.image>.city {
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  border-radius: 25%;
+  padding: .3125rem 1rem;
+  border-radius: 2.5rem;
+  background-color: black;
+  color: #ffff;
+  opacity: 0.4;
+}
+
+.card {
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card>.price {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.card>.description {
+  font-size: 1.5rem;
+  letter-spacing: .0625rem;
+  margin: 1rem;
+}
+
+a:active,
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.7s ease-out;
+}
+
+a:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
